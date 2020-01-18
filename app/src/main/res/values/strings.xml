@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Números Primos</string>
+    <string name="digite_num">Digite um número primo: </string>
+</resources>
