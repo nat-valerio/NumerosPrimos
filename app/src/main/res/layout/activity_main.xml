@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/editText_Num"
+        android:id="@+id/edit_text_num"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="99dp"
@@ -27,31 +27,32 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="@string/digite_num"
+        android:textColor="@android:color/black"
         android:textSize="26sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView_Resultado"
+        android:id="@+id/text_view_resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="45dp"
-        android:text="TextView"
-        android:textSize="36sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_Calcular" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_calcular" />
 
     <Button
-        android:id="@+id/btn_Calcular"
+        android:id="@+id/btn_calcular"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
+        android:onClick="CalcP"
         android:text="@string/btn_calcula"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText_Num" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_text_num" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
